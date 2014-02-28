@@ -1,0 +1,290 @@
+              Mezz
+Mezz   Mezz  Device  Port      Interconnect Interconnect
+Slot  Device  Port  Status         Bay        Bay Port       Device ID
+----  ------ ------ ---------- ------------ ------------ ----------------
+
+------------------------------- Blade 001 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 1     D8:9D:67:F2:4F:48
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 1     D8:9D:67:F2:4F:49
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 1     10:00:D8:9D:67:F2:4F:49
+  Ethernet MZ1:2-a OK            Bay 4        Port 1     D8:9D:67:F2:4F:4C
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 1     D8:9D:67:F2:4F:4D
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 1     10:00:D8:9D:67:F2:4F:4D
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 1     e4:11:5b:9a:e2:90
+            Port 2 OK            Bay 6        Port 1     e4:11:5b:9a:e2:91
+            Port 3 OK            Bay 7        Port 1     e4:11:5b:9a:e2:92
+            Port 4 OK            Bay 8        Port 1     e4:11:5b:9a:e2:93
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet (NIC 1) LOM1:1-a OK    Bay 1        Port 1     D8:9D:67:74:6E:58
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 1     D8:9D:67:74:6E:59
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 1     10:00:D8:9D:67:74:6E:59
+ Ethernet (NIC 2) LOM1:2-a OK    Bay 2        Port 1     D8:9D:67:74:6E:5C
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 1     D8:9D:67:74:6E:5D
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 1     10:00:D8:9D:67:74:6E:5D
+
+------------------------------- Blade 002 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 2     D8:9D:67:F2:BC:90
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 2     D8:9D:67:F2:BC:91
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 2     10:00:D8:9D:67:F2:BC:91
+  Ethernet MZ1:2-a OK            Bay 4        Port 2     D8:9D:67:F2:BC:94
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 2     D8:9D:67:F2:BC:95
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 2     10:00:D8:9D:67:F2:BC:95
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 2     e4:11:5b:9a:e3:cc
+            Port 2 OK            Bay 6        Port 2     e4:11:5b:9a:e3:cd
+            Port 3 OK            Bay 7        Port 2     e4:11:5b:9a:e3:ce
+            Port 4 OK            Bay 8        Port 2     e4:11:5b:9a:e3:cf
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 2     D8:9D:67:74:7E:C0
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 2     D8:9D:67:74:7E:C1
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 2     10:00:D8:9D:67:74:7E:C1
+ Ethernet LOM1:2-a OK            Bay 2        Port 2     D8:9D:67:74:7E:C4
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 2     D8:9D:67:74:7E:C5
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 2     10:00:D8:9D:67:74:7E:C5
+
+------------------------------- Blade 003 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 3     D8:9D:67:F2:9D:E8
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 3     D8:9D:67:F2:9D:E9
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 3     10:00:D8:9D:67:F2:9D:E9
+  Ethernet MZ1:2-a OK            Bay 4        Port 3     D8:9D:67:F2:9D:EC
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 3     D8:9D:67:F2:9D:ED
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 3     10:00:D8:9D:67:F2:9D:ED
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 3     e4:11:5b:9a:e3:28
+            Port 2 OK            Bay 6        Port 3     e4:11:5b:9a:e3:29
+            Port 3 OK            Bay 7        Port 3     e4:11:5b:9a:e3:2a
+            Port 4 OK            Bay 8        Port 3     e4:11:5b:9a:e3:2b
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 3     D8:9D:67:75:06:C0
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 3     D8:9D:67:75:06:C1
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 3     10:00:D8:9D:67:75:06:C1
+ Ethernet LOM1:2-a OK            Bay 2        Port 3     D8:9D:67:75:06:C4
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 3     D8:9D:67:75:06:C5
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 3     10:00:D8:9D:67:75:06:C5
+
+------------------------------- Blade 004 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 4     D8:9D:67:F2:9E:40
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 4     D8:9D:67:F2:9E:41
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 4     10:00:D8:9D:67:F2:9E:41
+  Ethernet MZ1:2-a OK            Bay 4        Port 4     D8:9D:67:F2:9E:44
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 4     D8:9D:67:F2:9E:45
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 4     10:00:D8:9D:67:F2:9E:45
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 4     e4:11:5b:9a:e2:bc
+            Port 2 OK            Bay 6        Port 4     e4:11:5b:9a:e2:bd
+            Port 3 OK            Bay 7        Port 4     e4:11:5b:9a:e2:be
+            Port 4 OK            Bay 8        Port 4     e4:11:5b:9a:e2:bf
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 4     D8:9D:67:74:6E:F0
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 4     D8:9D:67:74:6E:F1
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 4     10:00:D8:9D:67:74:6E:F1
+ Ethernet LOM1:2-a OK            Bay 2        Port 4     D8:9D:67:74:6E:F4
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 4     D8:9D:67:74:6E:F5
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 4     10:00:D8:9D:67:74:6E:F5
+
+------------------------------- Blade 005 -------------------------------
+<absent>
+
+
+------------------------------- Blade 006 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 6     D8:9D:67:F2:0E:88
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 6     D8:9D:67:F2:0E:89
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 6     10:00:D8:9D:67:F2:0E:89
+  Ethernet MZ1:2-a OK            Bay 4        Port 6     D8:9D:67:F2:0E:8C
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 6     D8:9D:67:F2:0E:8D
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 6     10:00:D8:9D:67:F2:0E:8D
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 6     e4:11:5b:9a:e2:80
+            Port 2 OK            Bay 6        Port 6     e4:11:5b:9a:e2:81
+            Port 3 OK            Bay 7        Port 6     e4:11:5b:9a:e2:82
+            Port 4 OK            Bay 8        Port 6     e4:11:5b:9a:e2:83
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 6     D8:9D:67:75:85:F8
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 6     D8:9D:67:75:85:F9
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 6     10:00:D8:9D:67:75:85:F9
+ Ethernet LOM1:2-a OK            Bay 2        Port 6     D8:9D:67:75:85:FC
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 6     D8:9D:67:75:85:FD
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 6     10:00:D8:9D:67:75:85:FD
+
+------------------------------- Blade 007 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 7     D8:9D:67:F2:2F:C0
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 7     D8:9D:67:F2:2F:C1
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 7     10:00:D8:9D:67:F2:2F:C1
+  Ethernet MZ1:2-a OK            Bay 4        Port 7     D8:9D:67:F2:2F:C4
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 7     D8:9D:67:F2:2F:C5
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 7     10:00:D8:9D:67:F2:2F:C5
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 7     e4:11:5b:9a:e2:a4
+            Port 2 OK            Bay 6        Port 7     e4:11:5b:9a:e2:a5
+            Port 3 OK            Bay 7        Port 7     e4:11:5b:9a:e2:a6
+            Port 4 OK            Bay 8        Port 7     e4:11:5b:9a:e2:a7
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet (NIC 1) LOM1:1-a OK    Bay 1        Port 7     D8:9D:67:75:64:18
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 7     D8:9D:67:75:64:19
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 7     10:00:D8:9D:67:75:64:19
+ Ethernet (NIC 2) LOM1:2-a OK    Bay 2        Port 7     D8:9D:67:75:64:1C
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 7     D8:9D:67:75:64:1D
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 7     10:00:D8:9D:67:75:64:1D
+
+------------------------------- Blade 008 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 8     D8:9D:67:F2:0E:E8
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 8     D8:9D:67:F2:0E:E9
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 8     10:00:D8:9D:67:F2:0E:E9
+  Ethernet MZ1:2-a OK            Bay 4        Port 8     D8:9D:67:F2:0E:EC
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 8     D8:9D:67:F2:0E:ED
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 8     10:00:D8:9D:67:F2:0E:ED
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 8     e4:11:5b:9a:e2:94
+            Port 2 OK            Bay 6        Port 8     e4:11:5b:9a:e2:95
+            Port 3 OK            Bay 7        Port 8     e4:11:5b:9a:e2:96
+            Port 4 OK            Bay 8        Port 8     e4:11:5b:9a:e2:97
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 8     D8:9D:67:75:D6:A0
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 8     D8:9D:67:75:D6:A1
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 8     10:00:D8:9D:67:75:D6:A1
+ Ethernet LOM1:2-a OK            Bay 2        Port 8     D8:9D:67:75:D6:A4
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 8     D8:9D:67:75:D6:A5
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 8     10:00:D8:9D:67:75:D6:A5
+
+------------------------------- Blade 009 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 9     D8:9D:67:F2:AC:88
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 9     D8:9D:67:F2:AC:89
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 9     10:00:D8:9D:67:F2:AC:89
+  Ethernet MZ1:2-a OK            Bay 4        Port 9     D8:9D:67:F2:AC:8C
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 9     D8:9D:67:F2:AC:8D
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 9     10:00:D8:9D:67:F2:AC:8D
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 9     e4:11:5b:9a:e2:8c
+            Port 2 OK            Bay 6        Port 9     e4:11:5b:9a:e2:8d
+            Port 3 OK            Bay 7        Port 9     e4:11:5b:9a:e2:8e
+            Port 4 OK            Bay 8        Port 9     e4:11:5b:9a:e2:8f
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 9     D8:9D:67:7A:C4:78
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 9     D8:9D:67:7A:C4:79
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 9     10:00:D8:9D:67:7A:C4:79
+ Ethernet LOM1:2-a OK            Bay 2        Port 9     D8:9D:67:7A:C4:7C
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 9     D8:9D:67:7A:C4:7D
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 9     10:00:D8:9D:67:7A:C4:7D
+
+------------------------------- Blade 010 -------------------------------
+<absent>
+
+
+------------------------------- Blade 011 -------------------------------
+<absent>
+
+
+------------------------------- Blade 012 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 12    D8:9D:67:F2:B9:78
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 12    D8:9D:67:F2:B9:79
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 12    10:00:D8:9D:67:F2:B9:79
+  Ethernet MZ1:2-a OK            Bay 4        Port 12    D8:9D:67:F2:B9:7C
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 12    D8:9D:67:F2:B9:7D
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 12    10:00:D8:9D:67:F2:B9:7D
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 12    e4:11:5b:9a:e3:a4
+            Port 2 OK            Bay 6        Port 12    e4:11:5b:9a:e3:a5
+            Port 3 OK            Bay 7        Port 12    e4:11:5b:9a:e3:a6
+            Port 4 OK            Bay 8        Port 12    e4:11:5b:9a:e3:a7
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 12    D8:9D:67:75:94:08
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 12    D8:9D:67:75:94:09
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 12    10:00:D8:9D:67:75:94:09
+ Ethernet LOM1:2-a OK            Bay 2        Port 12    D8:9D:67:75:94:0C
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 12    D8:9D:67:75:94:0D
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 12    10:00:D8:9D:67:75:94:0D
+
+------------------------------- Blade 013 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 13    D8:9D:67:F2:B9:F8
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 13    D8:9D:67:F2:B9:F9
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 13    10:00:D8:9D:67:F2:B9:F9
+  Ethernet MZ1:2-a OK            Bay 4        Port 13    D8:9D:67:F2:B9:FC
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 13    D8:9D:67:F2:B9:FD
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 13    10:00:D8:9D:67:F2:B9:FD
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 13    e4:11:5b:9a:e3:90
+            Port 2 OK            Bay 6        Port 13    e4:11:5b:9a:e3:91
+            Port 3 OK            Bay 7        Port 13    e4:11:5b:9a:e3:92
+            Port 4 OK            Bay 8        Port 13    e4:11:5b:9a:e3:93
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 13    D8:9D:67:75:A5:00
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 13    D8:9D:67:75:A5:01
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 13    10:00:D8:9D:67:75:A5:01
+ Ethernet LOM1:2-a OK            Bay 2        Port 13    D8:9D:67:75:A5:04
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 13    D8:9D:67:75:A5:05
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 13    10:00:D8:9D:67:75:A5:05
+
+------------------------------- Blade 014 -------------------------------
+
+    1 HP FlexFabric 10Gb 2-port 554M Adapter
+  Ethernet MZ1:1-a OK            Bay 3        Port 14    D8:9D:67:F2:7F:08
+ iSCSI HBA MZ1:1-b OK            Bay 3        Port 14    D8:9D:67:F2:7F:09
+  FCoE HBA MZ1:1-b OK            Bay 3        Port 14    10:00:D8:9D:67:F2:7F:09
+  Ethernet MZ1:2-a OK            Bay 4        Port 14    D8:9D:67:F2:7F:0C
+ iSCSI HBA MZ1:2-b OK            Bay 4        Port 14    D8:9D:67:F2:7F:0D
+  FCoE HBA MZ1:2-b OK            Bay 4        Port 14    10:00:D8:9D:67:F2:7F:0D
+
+    2 HP Ethernet 1Gb 4-port 366M Adapter
+            Port 1 OK            Bay 5        Port 14    e4:11:5b:9a:e3:84
+            Port 2 OK            Bay 6        Port 14    e4:11:5b:9a:e3:85
+            Port 3 OK            Bay 7        Port 14    e4:11:5b:9a:e3:86
+            Port 4 OK            Bay 8        Port 14    e4:11:5b:9a:e3:87
+
+ FLB1 HP FlexFabric 10Gb 2-port 554FLB Adapter
+ Ethernet LOM1:1-a OK            Bay 1        Port 14    D8:9D:67:75:86:D8
+iSCSI HBA LOM1:1-b OK            Bay 1        Port 14    D8:9D:67:75:86:D9
+ FCoE HBA LOM1:1-b OK            Bay 1        Port 14    10:00:D8:9D:67:75:86:D9
+ Ethernet LOM1:2-a OK            Bay 2        Port 14    D8:9D:67:75:86:DC
+iSCSI HBA LOM1:2-b OK            Bay 2        Port 14    D8:9D:67:75:86:DD
+ FCoE HBA LOM1:2-b OK            Bay 2        Port 14    10:00:D8:9D:67:75:86:DD
+
+------------------------------- Blade 015 -------------------------------
+<absent>
+
+
+------------------------------- Blade 016 -------------------------------
+<absent>
+
+
+
