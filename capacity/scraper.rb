@@ -2,25 +2,34 @@
 require 'rubygems'
 require 'net/ssh'
 require 'fileutils'
+require 'timeout'
 
 DUMP_FOLDER = "server_dumps"
 
 module Weaver
   def self.capture_ssh (hostname, username, password, dumpfile)
-    Net::SSH.start( hostname, username, :password => password ) do |ssh|
-      enclosure_info = ssh.exec!('show enclosure info')
-      server_names = ssh.exec!('show server names')
+    begin
+      Timeout::timeout(5) do
+        Net::SSH.start( hostname, username, :password => password ) do |ssh|
+          enclosure_info = ssh.exec!('show enclosure info')
+          server_names = ssh.exec!('show server names')
 
-      #  stdout = ""
-      #  ssh.exec("show server names") do |channel, stream, data|
-      #    stdout << data #if stream == :stdout
-      #  end
-      #  puts stdout
+          #  stdout = ""
+          #  ssh.exec("show server names") do |channel, stream, data|
+          #    stdout << data #if stream == :stdout
+          #  end
+          #  puts stdout
 
-      dump_file = File.open(dumpfile, 'w')
-      dump_file.puts enclosure_info
-      dump_file.puts server_names
-      dump_file.close
+          dump_file = File.open(dumpfile, 'w')
+          dump_file.puts enclosure_info
+          dump_file.puts server_names
+          dump_file.close
+        end
+      end
+      true
+    rescue Timeout::Error
+      puts "Timed out trying to get a connection to #{hostname}"
+      false
     end
   end
 
@@ -41,36 +50,49 @@ module Weaver
   def self.parse_dump (center, inputfile, out_file)
     
     File.open(inputfile) do |f|
-      current = {:center => center, :enclosure => "", :bay => "", :serial => "", :status => ""}
+      current = {:center => center, :enclosure => "", :bay => "", :server => "", :serial => "", :status => ""}
+      serial_column = 34
+      status_column = 50
 
       f.each_line do |line|
         
         en_index = line.index('Enclosure Name:')
         current[:enclosure] = line.slice(en_index+16,25).strip unless en_index.nil?
+        
+        serial_column = line.index('Serial Number') unless line.index('Bay Server Name').nil?
+        status_column = line.index('Status') unless line.index('Bay Server Name').nil?
+
+        dump_it = false
 
         if line.index('[Absent]') == 4
           current[:bay] = line.slice(1,2).strip
-          current[:serial] = '************'
+          current[:server] = '*************'
+          current[:serial] = '**********'
           current[:status] = '[Absent]'
-          record = current[:center] + ', ' + current[:enclosure] + ', ' + current[:bay].rjust(2) + ', ' + current[:serial] + ', ' + current[:status]
-          out_file.puts record
+          dump_it = true
         end
 
-        if line.index('Degraded') == 50
+        if line.index('Degraded') == status_column
           current[:bay] = line.slice(1,2).strip
-          current[:serial] = line.slice(34,15).strip
+          current[:server] = line.slice(4,30).strip
+          current[:serial] = line.slice(serial_column,15).strip
           current[:status] = 'Degraded'
-          record = current[:center] + ', ' + current[:enclosure] + ', ' + current[:bay].rjust(2) + ', ' + current[:serial] + ', ' + current[:status]
+          dump_it = true
+        end
+
+        if line.index('OK') == status_column
+          current[:bay] = line.slice(1,2).strip
+          current[:server] = line.slice(4,30).strip
+          current[:serial] = line.slice(serial_column,15).strip
+          current[:status] = 'OK'
+          dump_it = true
+        end
+        
+        if dump_it
+          record = current[:center] + ', ' + current[:enclosure] + ', ' + current[:server] + ', ' + current[:bay].rjust(2) + ', ' + current[:serial] + ', ' + current[:status]
           out_file.puts record
         end
 
-        if line.index('OK') == 50
-          current[:bay] = line.slice(1,2).strip
-          current[:serial] = line.slice(34,15).strip
-          current[:status] = 'OK'
-          record = current[:center] + ', ' + current[:enclosure] + ', ' + current[:bay].rjust(2) + ', ' + current[:serial] + ', ' + current[:status]
-          out_file.puts record
-        end
       end
     end
     nil
@@ -80,7 +102,6 @@ module Weaver
 end
 
 
-#system ("cls")
 puts " "
 puts " "
 puts "syntax:> ruby scraper.rb password [username] [serverfile] [datacenterfile] [outputfile]"
@@ -157,23 +178,27 @@ Dir.mkdir(DUMP_FOLDER) unless Dir.exists?(DUMP_FOLDER)
 
 # create/open the CSV file that will contain the golden output
 out_file = File.open(File.join(DUMP_FOLDER, outputfile), 'w')
-out_file.puts "DataCenter, EnclosureName, Bay#, SerialNumber, Status"
+out_file.puts "DataCenter, ServerName, EnclosureName, Bay#, SerialNumber, Status"
 
 # ssh into each server and capture a dump
+bad_servers = Array.new
 puts "Capturing SSH output..." 
 servers.each do |hostname|
   puts "  Capturing #{hostname}"
   dumpfile = File.join(DUMP_FOLDER, "#{hostname}.txt")
-  Weaver::capture_ssh hostname, username, password, dumpfile
+  success = Weaver::capture_ssh hostname, username, password, dumpfile
+  bad_servers << hostname unless success
 end
 puts "Capturing SSH output...COMPLETED"
 
 # parse data in all dump files and write csv to out_file
 print "Parsing dump files..." 
 servers.each do |hostname|
-  inputfile = File.join(DUMP_FOLDER, "#{hostname}.txt")
-  center = Weaver::ip_to_datacenter hostname, datacenter_map
-  Weaver::parse_dump center, inputfile, out_file
+  unless bad_servers.include? hostname
+    inputfile = File.join(DUMP_FOLDER, "#{hostname}.txt")
+    center = Weaver::ip_to_datacenter hostname, datacenter_map
+    Weaver::parse_dump center, inputfile, out_file
+  end  
 end
 puts "COMPLETED"
 
