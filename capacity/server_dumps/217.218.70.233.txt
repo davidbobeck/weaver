@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2014 Hewlett-Packard Development Company, L.P.
+
+IND0028C1OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: IND0028C1
+	Enclosure Type: BladeSystem c7000 Enclosure G3
+	Part Number: 686611-B21
+	Serial Number: USE410T2PH
+	UUID: 09USE410T2PH
+	Asset Tag: 
+	Midplane Spare Part Number: 689229-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase
+		PDU Spare Part Number: 413494-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA3BCK1302    
+
+
+IND0028C1OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2014 Hewlett-Packard Development Company, L.P.
+
+IND0028C1OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                                       Serial Number   Status   Power   UID Partner
+--- ------------------------------------------------- --------------- -------- ------- --- -------
+  1 IND0028C1MS01                                     USE410T2SC      OK       On      Off 
+  2 IND0028C1MS02                                     USE410T2SB      OK       On      Off 
+  3 IND0028C1MS03                                     USE410T2SA      OK       On       ?  
+  4 IND0028C1MS04                                     USE410T2S9      OK       On      Off 
+  5 IND0028C1MS05                                     USE410T2S8      OK       On      Off 
+  6 IND0028C1MS06                                     USE410T2S7      OK       On      Off 
+  7 IND0028C1MS07                                     USE410T2S6      OK       On      Off 
+  8 IND0028C1XX08                                     USE410T2S5      OK       On      Off 
+  9 IND0028C1IV09                                     USE410T2SM      OK       On      Off 
+ 10 IND0028C1IV10                                     USE410T2SL      OK       On      Off 
+ 11 IND0028C1IV11                                     USE410T2SK      OK       On      Off 
+ 12 IND0028C1AC12                                     USE410T2SJ      OK       On      Off 
+ 13 IND0028C1IC13                                     USE410T2SF      OK       On      Off 
+ 14 IND0028C1XX14                                     USE410T2SH      OK       On      Off 
+ 15 IND0028C1XX15                                     USE410T2SE      OK       On      Off 
+ 16 IND0028C1XX16                                     USE410T2SD      OK       On      Off 
+Totals: 16 server blades installed, 16 powered on.
+
+IND0028C1OA1 [SCRIPT MODE]> 
+
+show server names

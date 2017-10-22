@@ -1,0 +1,80 @@
+hostname DENA15B11SW04 
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/2        Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/3        Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/4        Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/5        Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/6        Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/7        --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/8        --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/9        Connects to Level3 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/10       Connects to Level3 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/11       Connects to DENA18 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/12       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/13       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/14       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/15       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/16       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/17       Connects to Emerso connected 343       full    1000    10/100/1000BaseT       
+Eth1/18       Connects to Stanle connected 377       full    1000    10/100/1000BaseT       
+Eth1/19       Connects to AltaMe connected 503       full    1000    10/100/1000BaseT       
+Eth1/20       Connects to Xtime  connected 531       half    100     10/100/1000BaseT       
+Eth1/21       Connects to Colora connected 397       full    1000    10/100/1000BaseT       
+Eth1/22       Connects to Lexmar notconnec 537       unknown auto    10/100/1000BaseT       
+Eth1/23       Connects to Lexmar connected 537       full    1000    10/100/1000BaseT       
+Eth1/24       Connects to Quorum connected 383       full    100     10/100/1000BaseT       
+Eth1/25       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/26       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/27       Connects to Wester connected 507       full    1000    10/100/1000BaseT       
+Eth1/28       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/29       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/30       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/31       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/32       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/33       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/34       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/35       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/36       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/37       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/38       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/39       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/40       --                 disabled  1         unknown auto    10/100/1000BaseT       
+Eth1/41       Connects to DENA18 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/42       Connects to DENA18 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/43       Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/44       Connects to DENA15 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/45       Connects to DENA11 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/46       Connects to DENA11 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/47       Connects to DENA11 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/48       Connects to DENA11 connected trunk     full    1000    10/100/1000BaseT       
+Eth1/49       Connects to DENA15 connected trunk     full    10G     SFP-H10GB-CU5M         
+Eth1/50       Connects to DENA15 connected trunk     full    10G     SFP-H10GB-CU5M         
+Eth1/51       --                 sfpAbsent 1         full    10G     --                     
+Eth1/52       --                 sfpAbsent 1         full    10G     --                     
+Po1           Connects to DENA15 connected trunk     full    10G     --                     
+Po2           Connects to DENA15 connected trunk     full    1000    --                     
+Po3           Connects to DENA18 connected trunk     full    1000    --                     
+Po10          Connects to DENA15 connected trunk     full    1000    --                     
+Po20          Connects to DENA11 connected trunk     full    1000    --                     
+Po21          Connects to DENA11 connected trunk     full    1000    --                     
+Po48          Connects to DENA15 connected trunk     full    1000    --                     
+mgmt0         --                 connected routed    full    1000    --                     
+NAME: "Chassis", DESCR: "Nexus 3048 Chassis"
+PID: N3K-C3048TP-1GE   , VID: V01 , SN: FOC1711R07A
+
+NAME: "Module 1", DESCR: "48x1GE + 4x10G Supervisor"
+PID: N3K-C3048TP-1GE   , VID: V01 , SN: FOC171115W7
+
+NAME: "Fan 1", DESCR: "Chassis fan module"
+PID: N3K-C3048-FAN-B   , VID: N/A , SN: N/A
+
+NAME: "Power supply 1", DESCR: "AC power supply"
+PID: N2200-PAC-400W-B  , VID: V02 , SN: LIT17101DMP
+
+NAME: "Power supply 2", DESCR: "AC power supply"
+PID: N2200-PAC-400W-B  , VID: V02 , SN: LIT17101DNF
+

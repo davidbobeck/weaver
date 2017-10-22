@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1808C2OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: DEN1808C2
+	Enclosure Type: BladeSystem c7000 Enclosure G2
+	Part Number: 507019-B21
+	Serial Number: USE3235SH4
+	UUID: 09USE3235SH4
+	Asset Tag: 
+	Midplane Spare Part Number: 519345-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase, Intlgnt
+		PDU Spare Part Number: 665381-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA33CK0484    
+
+
+DEN1808C2OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1808C2OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                   Serial Number   Status   Power   UID Partner
+--- ----------------------------- --------------- -------- ------- --- -------
+  1 DEN1808C2MS01                 USE3235SFW      OK       On      Off 
+  2 DEN1808C2MS02                 USE3235SFX      OK       On      Off 
+  3 DEN1808C2MS03                 USE3235SFY      OK       On      Off 
+  4 DEN1808C2MS04                 USE3235SH0      OK       On      Off 
+  5 [Absent]                      
+  6 DEN1808C2TX06                 USE3235SH1      OK       On      Off 
+  7 DEN1808C2AD07                 USE3235SHE      OK       On      Off 
+  8 DEN1808C2FS08                 USE3235SHF      OK       On      Off 
+  9 DEN1808C2HV09                 USE3235SHA      OK       On      Off 
+ 10 [Absent]                      
+ 11 [Absent]                      
+ 12 DEN1808C2SP12                 USE3235SH2      OK       On      Off 
+ 13 DEN1808C2IC13                 USE3235SH3      OK       On      Off 
+ 14 DEN1106C2AC12                 USE3235SFV      OK       Off     Off 
+ 15 WINDOWS-8K2OCDE               MXQ329014Q      OK       On      Off 
+ 16 [Absent]                      
+Totals: 12 server blades installed, 11 powered on.
+
+DEN1808C2OA1 [SCRIPT MODE]> 
+
+show server names

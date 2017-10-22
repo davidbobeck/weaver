@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1507C1OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: DEN1507C1
+	Enclosure Type: BladeSystem c7000 Enclosure G2
+	Part Number: 507019-B21
+	Serial Number: USE342HT72
+	UUID: 09USE342HT72
+	Asset Tag: 
+	Midplane Spare Part Number: 708047-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase
+		PDU Spare Part Number: 413494-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA2BCK3412    
+
+
+DEN1507C1OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1507C1OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                   Serial Number   Status   Power   UID Partner
+--- ----------------------------- --------------- -------- ------- --- -------
+  1 DEN1507C1MS01                 USE342HSW0      OK       On      Off 
+  2 DEN1507C1MS02                 USE342HSW1      OK       On      Off 
+  3 [Absent]                      
+  4 [Absent]                      
+  5 DEN1507C1RD05                 USE342HSW4      OK       On      Off 
+  6 DEN1507C1SE06                 USE342HSVW      OK       On      Off 
+  7 DEN1507C1AD07                 USE342HSVX      OK       On      Off 
+  8 DEN1507C1FS08                 USE342HSVY      OK       On      Off 
+  9 DEN1507C1HV09                 USE342HSW6      OK       On      Off 
+ 10 DEN1507C1HV10                 USE342HSW8      OK       On      Off 
+ 11 DEN1507C1HV11                 USE342HSW7      OK       On      Off 
+ 12 DEN1507C1IC12                 MXQ40201C4      OK       On      Off 
+ 13 DEN1507C1XX13                 USE342HSW3      OK       On      Off 
+ 14 DEN1507C1XX14                 USE342HSW5      OK       On      Off 
+ 15 DEN1507C1TX15                 MXQ40201C2      OK       On      Off 
+ 16 DEN1507C1SQ16                 USE342HSW2      OK       On      Off 
+Totals: 14 server blades installed, 14 powered on.
+
+DEN1507C1OA1 [SCRIPT MODE]> 
+
+show server names

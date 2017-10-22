@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2013 Hewlett-Packard Development Company, L.P.
+
+IND01060041C2OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: IND01060041C2
+	Enclosure Type: BladeSystem c7000 Enclosure G2
+	Part Number: 507019-B21
+	Serial Number: USE32465BJ
+	UUID: 09USE32465BJ
+	Asset Tag: 
+	Midplane Spare Part Number: 708047-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase, Intlgnt
+		PDU Spare Part Number: 666226-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA33CK1384    
+
+
+IND01060041C2OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2013 Hewlett-Packard Development Company, L.P.
+
+IND01060041C2OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                                       Serial Number   Status   Power   UID Partner
+--- ------------------------------------------------- --------------- -------- ------- --- -------
+  1 IND0041C2MS01                                     USE32465BV      OK       On      Off 
+  2 IND0041C2MS02                                     USE32465BW      OK       On      Off 
+  3 IND0041C2MS03                                     USE32465BX      OK       On      Off 
+  4 IND0041C2MS04                                     USE32465BY      OK       On      Off 
+  5 [Absent]                                          
+  6 [Absent]                                          
+  7 IND0041C2AD07                                     MXQ329005P      OK       On      Off 
+  8 IND0041C2FS08                                     MXQ329005N      OK       On      Off 
+  9 IND0041C2HV09                                     USE32465CH      OK       On      Off 
+ 10 IND0041C2HV10                                     USE32465CJ      OK       On      Off 
+ 11 [Absent]                                          
+ 12 IND0041C2EM12                                     USE32465C0      OK       On      Off 
+ 13 IND0041C2IC13                                     USE32465C1      OK       On      Off 
+ 14 IND0041C2DI14                                     USE32465C2      OK       On      Off 
+ 15 IND0041C2SQ15                                     USE32465D4      OK       On      Off 
+ 16 IND0041C2SQ16                                     USE32465D6      OK       On      Off 
+Totals: 13 server blades installed, 13 powered on.
+
+IND01060041C2OA1 [SCRIPT MODE]> 
+
+show server names

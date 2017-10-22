@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2014 Hewlett-Packard Development Company, L.P.
+
+DEN1107C2OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: DEN1107C2
+	Enclosure Type: BladeSystem c7000 Enclosure G3
+	Part Number: 686611-B21
+	Serial Number: USE411THL7
+	UUID: 09USE411THL7
+	Asset Tag: 
+	Midplane Spare Part Number: 689229-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase
+		PDU Spare Part Number: 413494-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA3BCK3402    
+
+
+DEN1107C2OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2014 Hewlett-Packard Development Company, L.P.
+
+DEN1107C2OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                                       Serial Number   Status   Power   UID Partner
+--- ------------------------------------------------- --------------- -------- ------- --- -------
+  1 WINDOWS-8FPIDAD                                   USE411THN2      OK       On      Off 
+  2 DEN1107C2MS02                                     USE411THN2      OK       On      Off 
+  3 DEN1107C2MS03                                     USE411THMW      OK       On      Off 
+  4 DEN1107C2MS04                                     USE411THN0      OK       On      Off 
+  5 DEN1107C2MS05                                     USE411THMY      OK       On      Off 
+  6 DEN1107C2MS06                                     USE411THMX      OK       On      Off 
+  7 DEN1107C2MS07                                     USE411THMM      OK       On      Off 
+  8 WINDOWS-7G8V51M                                   USE411THMV      OK       On      Off 
+  9 WINDOWS-LM2QBPL                                   USE411THNB      OK       On      Off 
+ 10 DEN1107C2IV10                                     USE411THNA      OK       On      Off 
+ 11 DEN1107C2IV11                                     USE411THN9      OK       On      Off 
+ 12 DEN1107C2AC12                                     USE411THN8      OK       On      Off 
+ 13 DEN1107C2IC13                                     USE411THN7      OK       On      Off 
+ 14 WINDOWS-3NURKEE                                   USE411THN6      OK       On      Off 
+ 15 WINDOWS-JQD0JB8                                   USE411THN5      OK       On      Off 
+ 16 WINDOWS-J4SUMTB                                   USE411THN4      OK       On      Off 
+Totals: 16 server blades installed, 16 powered on.
+
+DEN1107C2OA1 [SCRIPT MODE]> 
+
+show server names

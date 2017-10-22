@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1808C1OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: DEN1808C1
+	Enclosure Type: BladeSystem c7000 Enclosure G2
+	Part Number: 507019-B21
+	Serial Number: USE3235SF2
+	UUID: 09USE3235SF2
+	Asset Tag: 
+	Midplane Spare Part Number: 708047-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase, Intlgnt
+		PDU Spare Part Number: 665381-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA33CK0222    
+
+
+DEN1808C1OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1808C1OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                   Serial Number   Status   Power   UID Partner
+--- ----------------------------- --------------- -------- ------- --- -------
+  1 DEN1808C1MS01                 USE3235SFL      OK       On      Off 
+  2 DEN1808C1MS02                 USE3235SFM      OK       On      Off 
+  3 DEN1808C1MS03                 USE3235SFN      OK       On      Off 
+  4 DEN1808C1MS04                 USE3235SFP      OK       On      Off 
+  5 [Absent]                      
+  6 [Absent]                      
+  7 DEN1808C1RD07                 USE3235SHL      OK       On      Off 
+  8 DEN1808C1SE08                 USE3235SHH      OK       On      Off 
+  9 DEN1808C1HV09                 USE3235SH9      OK       On      Off 
+ 10 [Absent]                      
+ 11 [Absent]                      
+ 12 DEN1106C1IV10                 USE3235SFR      OK       Off     Off 
+ 13 DEN1808C1IC13                 USE3235SFS      OK       On      Off 
+ 14 DEN1808C1CC14                 USE3235SFT      OK       On      Off 
+ 15 DEN1106C1AC12                 MXQ329014R      OK       Off     Off 
+ 16 DEN1808C1HV16                 USE3235SHM      OK       On      Off 
+Totals: 12 server blades installed, 10 powered on.
+
+DEN1808C1OA1 [SCRIPT MODE]> 
+
+show server names

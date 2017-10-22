@@ -1,0 +1,41 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2014 Hewlett-Packard Development Company, L.P.
+
+DEN1107C2OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: DEN1107C2
+	Enclosure Type: BladeSystem c7000 Enclosure G3
+	Part Number: 686611-B21
+	Serial Number: USE411THL7
+	UUID: 09USE411THL7
+	Asset Tag: 
+	Midplane Spare Part Number: 689229-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase
+		PDU Spare Part Number: 413494-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA3BCK3402    
+
+
+DEN1107C2OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2014 Hewlett-Packard Development Company, L.P.
+
+DEN1107C2OA1 [SCRIPT MODE]> show server names
+
+
+Not a valid request while running in standby mode.
+
+
+DEN1107C2OA1 [SCRIPT MODE]> 
+
+show server names

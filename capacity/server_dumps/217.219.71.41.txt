@@ -1,0 +1,58 @@
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1110C2OA1 [SCRIPT MODE]> show enclosure info
+
+
+Enclosure Information:
+	Enclosure Name: DEN1110C2
+	Enclosure Type: BladeSystem c7000 Enclosure G2
+	Part Number: 507019-B21
+	Serial Number: 2S1316P1YR
+	UUID: 092S1316P1YR
+	Asset Tag: 
+	Midplane Spare Part Number: 519345-001
+	Solutions ID: 0000000000000000
+	Power Distribution Unit:
+		PDU Type: HP AC Module, Single Phase
+		PDU Spare Part Number: 413494-001
+	Onboard Administrator Tray Information:
+		Type: HP BladeSystem c7000 Onboard Administrator Tray
+		Spare Part Number: 711994-001
+		Serial Number: OA2BCK2966    
+
+
+DEN1110C2OA1 [SCRIPT MODE]> 
+
+show enclosure info
+
+HP BladeSystem Onboard Administrator
+(C) Copyright 2006-2012 Hewlett-Packard Development Company, L.P.
+
+DEN1110C2OA1 [SCRIPT MODE]> show server names
+
+
+Bay Server Name                   Serial Number   Status   Power   UID Partner
+--- ----------------------------- --------------- -------- ------- --- -------
+  1 DEN1110C2HV01                 USE316260D      OK       On      Off 
+  2 DEN1110C2HV02                 USE316260H      OK       On      Off 
+  3 DEN1110C2HV03                 USE316260F      OK       On      Off 
+  4 DEN1110C2XX04                 USE316260L      OK       On      Off 
+  5 DEN1110C2XX05                 USE316260J      OK       On      Off 
+  6 DEN1110C2XX06                 USE316260E      OK       On      Off 
+  7 DEN1110C2XX07                 USE316260K      OK       On      Off 
+  8 DEN1110C2AD08                 USE316260M      OK       On      Off 
+  9 DEN1110C2XX09                 USE316260C      OK       On      Off 
+ 10 DEN1110C2XX10                 USE316260V      OK       On      Off 
+ 11 DEN1110C2XX11                 USE316260W      OK       On      Off 
+ 12 DEN1110C2XX12                 USE316260N      OK       On      Off 
+ 13 DEN1110C2XX13                 USE316260R      OK       On      Off 
+ 14 DEN1110C2HV14                 USE316260S      OK       On      Off 
+ 15 DEN1110C2HV15                 USE316260P      OK       On      Off 
+ 16 DEN1110C2HV16                 USE316260T      OK       On      Off 
+Totals: 16 server blades installed, 16 powered on.
+
+DEN1110C2OA1 [SCRIPT MODE]> 
+
+show server names
